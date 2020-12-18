@@ -1,7 +1,9 @@
 from utils import *
 
 def main():
-    print("hello world")
+    items = [[1,2,[3]],4]
+    results = flatten(items)
+    print(results)
 
 if __name__ == "__main__":
     main()
