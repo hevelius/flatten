@@ -26,4 +26,4 @@ def flatten(elements):
     return elements[:1] + flatten(elements[1:])
 ```
 
-Usually every problem in computer science can be resolved dividing main problem in a subproblems. In this case you can see that flatten method decompose an element everytime it's an instance of list to rebuild the result list as single list of integers. 
+Usually every problem in computer science can be resolved dividing main problem in a subproblems. In this case you can see that flatten method decompose an element everytime is an instance of list, so rebuild the result as single list of integers. 
